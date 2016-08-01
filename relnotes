@@ -1,0 +1,44 @@
+Release notes for QT AGI Studio version 1.3.0 (2012-08-25)
+
+- new features:
+ * ported to QT4
+ * bitmap import for picture resources (vectorization)
+ * replaced old game open dialog with QT4 native
+ * more useful/complete template game (more like an example now)
+ * monospace font in logic editor
+
+- bug fixes:
+ * fixed a long-standing random startup crash
+ * wider position text area in picture editor
+
+- cleaner compilation, again
+
+Release notes for QT AGI Studio version 1.2.4 (2009-04-09)
+
+- cleaner compilation ("const char*" fixes etc.)
+
+Release notes for QT AGI Studio version 1.2.3 (2007-03-18)
+
+- new features:
+ * bitmap export for views (sprites)
+
+Release notes for QT AGI Studio version 1.2.1 (2003-08-08)
+
+- new features:
+ * midi export
+
+Release notes for QT AGI Studio version 1.2 (2003-05-17)
+
+- new features:
+ * logic editor: show line numbers
+ * documented the previously unknown commands
+
+- bug fixes:
+ * compiler: support for new AGI commands and empty blocks
+   to make LSL1 decompilable (thanks to Andreas J. Bathe
+   for reporting this)
+ * logic editor: fixed occasional crash with decompiled logics
+
+- other:
+ * Included a printable picture template for drafting AGI
+   pictures with a pencil

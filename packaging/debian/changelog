@@ -1,0 +1,141 @@
+agistudio (1.3.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Jarno Elonen <elonen@iki.fi>  Sat, 25 Apr 2012 17:32:00 +0300
+
+agistudio (1.2.4-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Jarno Elonen <elonen@iki.fi>  Wed, 08 Apr 2009 01:37:29 +0300
+
+agistudio (1.2.3+svn20070518-1) unstable; urgency=low
+
+  * New upstream release (from SVN).
+    - GCC 4.3 build patch (Closes: #417080)
+
+  * Orphaning the package.
+
+ -- Jarno Elonen <elonen@debian.org>  Fri, 18 May 2007 12:30:08 +0300
+
+agistudio (1.2.3-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Jarno Elonen <elonen@debian.org>  Thu,  18 Mar 2007 02:25:02 +0300
+
+agistudio (1.2.2-1) unstable; urgency=low
+
+  * New upstream release. (Closes: #358291) 
+
+ -- Jarno Elonen <elonen@debian.org>  Thu,  22 Mar 2006 21:53:23 +0300
+
+agistudio (1.2.1-5) unstable; urgency=low
+
+  * QT ABI transition
+
+ -- Jarno Elonen <elonen@debian.org>  Thu,  1 Sep 2005 22:24:15 +0300
+
+agistudio (1.2.1-4) unstable; urgency=low
+
+  * Added a watch file
+
+  * REALLY changed maintainer email address
+
+  * Moved menu pixmap away from /usr/X11
+
+ -- Jarno Elonen <elonen@debian.org>  Sun, 10 Oct 2004 03:01:09 +0300
+
+agistudio (1.2.1-3) unstable; urgency=low
+
+  * Copyrights update
+  * Changed maintainer email address
+  * Updated 'Section' to match the override file
+
+ -- Jarno Elonen <elonen@debian.org>  Fri, 16 Jan 2004 11:01:47 +0200
+
+agistudio (1.2.1-2) unstable; urgency=low
+
+  * Fixed some bad code that crashed GCC 3.3 on Alpha
+    (Thanks to Riku Voipio for notifying me about the
+    problem and to Falk Hueffner for pointing out the reason)
+
+  * Updated an URL in documentation as requested by Juha Terho
+
+  * Cleaned up some compiler warnings
+
+  * Changed Section to 'devel' - Agistudio is neither a
+    game nor a generic X11 application
+
+  * Changed build options for tmake to generate a
+    release version (-O2, most notably) instead of debug
+
+ -- Jarno Elonen <elonen@iki.fi>  Thu,  11 Sep 2003 19:57:00 +0300
+
+agistudio (1.2.1-1) unstable; urgency=low
+
+  * New upstream release.
+    - Midi export
+
+  * Fixed Build-Depends and upgraded Standards-Version
+
+ -- Jarno Elonen <elonen@iki.fi>  Fri,  8 Aug 2003 10:07:44 +0300
+
+agistudio (1.2-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Jarno Elonen <elonen@iki.fi>  Sat, 17 May 2003 15:03:49 +0300
+
+agistudio (1.1-1) unstable; urgency=low
+
+  * New upstream version.
+
+  * Previous patches merged to upstream.
+
+ -- Jarno Elonen <elonen@iki.fi>  Sun,  6 Apr 2003 21:05:39 +0300
+
+agistudio (1.0-3) unstable; urgency=low
+
+  * Added context sensitive help on AGI commands
+    to the logic editor
+
+  * Added syntax highlight with command detection
+
+  * Text search now selects found text
+
+  * Enhanced logic parser (comment removal, whitespace handling)
+
+ -- Jarno Elonen <elonen@iki.fi>  Fri, 28 Mar 2003 23:02:51 +0200
+
+agistudio (1.0-2) unstable; urgency=low
+
+  * Added review for logics
+
+  * Embedded the preview window into the
+    resource window to remove annoying popups
+
+  * Nonpropotional font for text editor, too,
+    not just logics
+
+  * Added a priority mask color display to
+    the picture editor
+
+  * Some smaller usability fixes
+
+ -- Jarno Elonen <elonen@iki.fi>  Sun, 23 Mar 2003 18:55:59 +0200
+
+agistudio (1.0-1) unstable; urgency=low
+
+  * Initial Release.
+
+  * Ported upstream source to QT 3.1
+
+  * changed editor font to non-propotional
+
+  * changed default interpreter to Nagi
+    (more AGI compatibile than Sarien)
+
+ -- Jarno Elonen <elonen@iki.fi>  Sat,  1 Mar 2003 11:00:43 +0200
+
