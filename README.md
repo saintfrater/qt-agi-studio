@@ -46,8 +46,8 @@ Building
 ========
 
 * Dependancies
-* 
-# sudo apt-get install qt4-qmake
+ 
+sudo apt-get install qt4-qmake
 
 * Building
 
