@@ -45,6 +45,14 @@ Visual Studio project and send a patch!
 Building
 ========
 
+Dependancies
+------------
+
+# sudo apt-get install qt4-qmake
+
+Building
+--------
+
 Run "make" in the src subdirectory. If the supplied Makefile doesn't work,
 you can either fix it or use tmake to generate a makefile for your platform:
 
