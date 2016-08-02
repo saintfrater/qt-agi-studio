@@ -44,14 +44,6 @@ Visual Studio project and send a patch!
 
 Building
 ========
-
-* Dependancies
- 
-sudo apt-get install qt4-qmake
-
-* Building
-
-
 Run "make" in the src subdirectory. If the supplied Makefile doesn't work,
 you can either fix it or use tmake to generate a makefile for your platform:
 
@@ -62,6 +54,17 @@ If you don't have tmake, you can download it at http://www.trolltech.com
 Make assumes that QT4 is installed and working (in particular, the QTDIR
 environment variable is properly set)
 
+* Troubleshooting
+
+Install missing *qmake*
+
+sudo apt-get install qt4-qmake
+
+Project ERROR: Unknown module(s) in QT: qt3support
+
+ It needs to be qt3support. You may need to use qmake-qt4 explicitly:
+
+qmake-qt4 "QT += qt3support" agistudio.pro -o Makefile
 
 Installation and setup
 ======================
